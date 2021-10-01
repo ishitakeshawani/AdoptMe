@@ -8,7 +8,7 @@ const App = () => {
   return (
     <div>
       <header>
-        <Link to="/">Adopt Me!</Link>
+        <Link to="/" className="header">Adopt Me!</Link>
       </header>;
       <Router>
         <SearchParams path="/" />

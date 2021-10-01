@@ -10,9 +10,20 @@
 
 body {
   background-color: #81a69b;
-  background-image: url(http://static.frontendmasters.com/resources/2019-05-02-complete-intro-react-v5/image-background.png);
+  background-image: url(./assets/bg.jpg);
+  background-repeat: repeat;
+  background-size: 400px;
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header{
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.15);  
+  backdrop-filter: blur(15px);
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.322);
+  background-repeat: no-repeat;
 }
 
 .search-params {
@@ -21,7 +32,9 @@ body {
 }
 
 .search-params form {
-  background-color: #d9c148;
+  background-color: rgba(255, 255, 255, 0.15);  
+  backdrop-filter: blur(15px);
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.322);	
   width: 360px;
   margin: 0px 25px 0px 0px;
   padding: 35px 15px 15px 15px;
@@ -30,7 +43,9 @@ body {
 }
 
 .search {
-  background-color: #d9c148;
+  background-color: rgba(255, 255, 255, 0.15);  
+  backdrop-filter: blur(15px);
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.322);
   width: 715px;
   padding: 15px;
   border-radius: 9px;
@@ -41,7 +56,9 @@ body {
 .details {
   width: 1100px;
   margin: 0 auto;
-  background-color: #d9c148;
+  background-color: rgba(255, 255, 255, 0.15);  
+  backdrop-filter: blur(15px);
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.322);
   padding: 15px;
   border-radius: 9px;
   margin-bottom: 25px;
